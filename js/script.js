@@ -13,7 +13,7 @@ var phoneNumb = document.getElementById("phonenumb");
 
 function setCode(number) {
     space.innerHTML = `${masks[number].code}`;
-    flagsBox.innerHTML = `<img src="flags/${masks[number].iso}.png" alt="">`;
+    flagsBox.innerHTML = `<img src="flags/${masks[number].iso.toLowerCase()}.png" alt="">`;
     let phone = document.forms["leadsForm"]['phone'];
     let phoneClone = phone.cloneNode(true);
     phone.parentNode.replaceChild(phoneClone, phone);
