@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", function () {
     for (i = 0; i < masks.length; i++)
         optionsContainer.innerHTML += `           
                 <div class="option" data-columns="${i}">
-                    <img src="flags/${masks[i].iso}.png" alt="">
+                    <img src="flags/${masks[i].iso.toLowerCase()}.png" alt="">
                     <p class="code">${masks[i].code}</p>
                     <p class="country">${masks[i].name}</p>
                 </div>`;
