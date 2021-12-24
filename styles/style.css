@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.phone_container {
+    display: none;
+
+}
+
+#phoneTitle {
+    display: none;
+}
+
+#form {
+    display: none;
+}
+
+#phonenumb {
+    height: 52px;
+    box-sizing: border-box;
+    width: 272px;
+    padding-left: 13px;
+    margin-left: 8px;
+}
+
+.form_title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.container {
+    width: 390px;
+    margin: 250px auto 0 auto;
+}
+
+
+.dropdown {
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 10;
+}
+
+.dropdown_content {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 4px;
+    padding: 20px 30px 30px 30px;
+}
+
+.shadow{
+    content: "";
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0 , 0 , 0, .4);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    margin: 0;
+}
+
+.options {
+    overflow-y: scroll;
+    height: 400px;
+    padding-top: 40px;
+
+}
+
+.dropdown_nav {
+    padding-bottom: 20px;
+}
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.dropdown_nav p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.cross {
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+    margin: 0;
+    cursor: pointer;
+}
+
+.cross img {
+    max-width: 100%;
+}
+
+/*.dropdown[data-parent = "too_short"] {*/
+/*    top: -302px;*/
+/*}*/
+
+.option {
+    display: flex;
+    cursor: pointer;
+}
+
+.option img {
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.code {
+    padding-left: 20px;
+    width: 40px;
+}
+
+.country {
+    padding-left: 20px;
+}
+
+.space_container {
+    width: 104px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.input_style {
+    border: 1px solid #E8ECED;
+    border-radius: 4px;
+    outline: none;
+    transition: .2s ease;
+}
+
+.input_style:hover {
+    border-color: #FCD535;
+}
+
+div[data-parent = "error"] .input_style{
+    border-color: #D75466;
+}
+
+.input_style:focus-visible {
+    border-color: #FCD535;
+}
+
+.img_box {
+    padding: 13px 8px 16px 12px;
+}
+
+.img_box img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.space {
+    font-size: 14px;
+    margin: 16px 0 0 0;
+}
+
+.space_container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 5px;
+    background: url("../images/arrow.svg");
+    right: 14px;
+    top: 22px;
+}
+
+/*.space_container[data-parent = "active"]:after {*/
+/*    transform: rotate(180deg);*/
+/*    border-color: blue transparent transparent transparent;*/
+/*}*/
+
+.error {
+    margin: 6px 0;
+    color: #D75466;
+    font-size: 14px;
+    display: none;
+}
+
+.error_phone {
+    font-size: 0;
+}
+
+.bottom_nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bottom_nav:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.bottom_nav:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 21px;
+    top: 19px;
+    width: 2px;
+    height: 9px;
+    background: grey;
+    transform: rotate(321deg);
+}
+
+.search {
+    width: 100%;
+    height: 30px;
+    padding-left: 40px;
+}
+
+.password_container {
+    margin-top: 50px;
+    position: relative;
+}
+
+.password {
+    width: 370px;
+    height: 48px;
+    padding-left: 13px;
+}
+
+.eye {
+    position: absolute;
+    margin: 0;
+    right: 15px;
+    top: 45px;
+    cursor: pointer;
+}
+
+.btn_enter {
+    outline: none;
+    border: none;
+    background: #FCD535;
+    width: 387px;
+    height: 44px;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+
+.password_validate {
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 black;
+    position: absolute;
+    right: -75%;
+    top: 4%;
+    background: white;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.text_validate {
+    padding: 10px 10px 10px 0;
+    font-size: 12px;
+}
+
+.password_validate p {
+    padding-left: 50px;
+    position: relative;
+}
+
+.password_validate p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url("../images/incorrect.png");
+    left: 20px;
+    top: 3px;
+}
+
+.password_validate p[data-parent="correct"]:before {
+    width: 12px;
+    height: 10px;
+    background: url("../images/correct.png");
+}
+
+.password_validate p[data-parent="incorrect"]:before {
+    width: 10px;
+    height: 10px;
+    background: url("../images/incorrect.png");
+}
+
+.delete {
+    position: absolute;
+    margin: 0;
+    right: 45px;
+    top: 45px;
+    cursor: pointer;
+}
+
+.btn_enter:hover {
+    opacity: .8;
+}
+
+.btns_container {
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_btn {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 7px;
+    background: none;
+    color: #707A8A;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.phone_btn {
+    margin-right: 5px;
+}
+
+.form_btn[data-parent="active"]{
+    background: #F5F5F5;
+    color: black;
+}
+
+.email {
+    width: 370px;
+    height: 48px;
+    padding-left: 13px;
+}
+
+.email_container {
+    position: relative;
+}
+
+#deleteEmail {
+    right: 15px;
+}
+
+@media (max-width: 750px) {
+    #phonenumb {
+        width: 100%;
+        margin-left: 8px;
+
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .container {
+        width: 90%;
+        margin-top: 80px;
+    }
+
+    form {
+        justify-content: normal;
+        z-index: 10;
+    }
+    .dropdown {
+        width: 100vw;
+        height: 60vh;
+        position: absolute;
+        left: 0;
+        top: auto;
+        bottom: 0;
+        display: block;
+        overflow-y: hidden;
+        transform: none;
+        transition: z-index 1s ease;
+    }
+
+
+
+    .dropdown_content {
+        position: relative;
+        z-index: 10;
+        width: auto;
+        height: auto;
+        background: white;
+        border-radius: 8px;
+        display: block;
+        transform: translateY(1000px);
+        transition: transform 1s ease;
+
+    }
+
+    .dropdown {
+        z-index: -10;
+    }
+
+    .dropdown[data-parent="show"]{
+        z-index: 20;
+    }
+
+    .dropdown[data-parent="show"] .dropdown_content {
+        transform: translateY(0px);
+    }
+    .dropdown[data-parent="not_show"] .dropdown_content {
+        transform: translateY(1000px);
+    }
+
+
+    .shadow{
+        display: none;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0 , 0 , 0, .4);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 5;
+        margin: 0;
+    }
+
+    .options {
+        overflow-y: scroll;
+        height: 40vh;
+        padding-top: 40px;
+        display: block;
+    }
+
+    .dropdown_nav {
+    }
+
+    .cross {
+        width: 20px;
+        height: 20px;
+        margin: 3px 0 0 0;
+    }
+
+    .cross img {
+        max-width: 100%;
+    }
+
+    .space_container {
+        padding-right: 30px;
+    }
+
+    .password {
+        width: 95%;
+    }
+
+    .btn_enter {
+        width: 100%;
+        transition: margin-top .2s ease;
+        position: relative;
+    }
+
+    .btn_enter[data-parent="up"]{
+        margin-top: 40px;
+    }
+
+    .btn_enter[data-parent="down"]{
+        margin-top: 160px;
+    }
+
+    .btn_enter[data-parent="mid"]{
+        margin-top: 90px;
+    }
+
+
+    .password_validate {
+        border-radius: 4px;
+        box-shadow: 0 0 10px 0 black;
+        position: absolute;
+        right: 73px;
+        top: 91px;
+        background: white;
+        opacity: 0;
+        transition: opacity .5s ease;
+        font-size: 10px;
+    }
+
+    .email {
+        width: 95%;
+    }
+
+    .form_btn {
+        font-size: 14px;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+
+}

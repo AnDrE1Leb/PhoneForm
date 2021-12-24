@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>International Telephone</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="btns_container">
+        <button class="email_btn form_btn" data-parent="active" id="emailBtn">Электронная почта</button>
+        <button class="phone_btn form_btn" id="phoneBtn">Мобильный</button>
+    </div>
+    <form id="form_container" name="leadsForm" action="">
+        <div class="email_container" id="email_container">
+            <p class="form_title">Электронная почта</p>
+            <input class="email input_style" id="email_input" type="email">
+            <figure class="delete" id="deleteEmail">
+                <img src="images/cross_small.png" alt="">
+            </figure>
+        </div>
+        <p class="error error_email" id="errorEmail">* Пожалуйста, введите правильный адрес электронной почты.</p>
+        <p class="form_title" id="phoneTitle">Номер телефона</p>
+        <div class="phone_container" id="phone_container">
+            <div class="space_container input_style" id="space_container">
+                <div class="img_box" id="img_box"></div>
+                <p class="space" id="space"></p>
+            </div>
+            <input class="input_style" id="phonenumb" name="phone" type="tel">
+            <button type="submit" id="form"></button>
+        </div>
+        <p class="error error_phone" id="errorPhone">* Пожалуйста, введите правильный номер телефона.</p>
+        <div class="password_container" id="password_container">
+            <p class="form_title">Пароль</p>
+            <input class="password input_style" id="password" type="password">
+            <figure class="eye" id="eye" data-parent="not_active">
+                <img src="images/eye.png" alt="">
+            </figure>
+            <figure class="delete" id="deletePassword">
+                <img src="images/cross_small.png" alt="">
+            </figure>
+            <div class="password_validate" id="passwordValidate">
+                <div class="text_validate">
+                    <p id="minimum">Минимум 8 символов</p>
+                    <p id="oneNumb">Не менее 1 цифры</p>
+                    <p id="oneSymbol">Хотя бы 1 символ с верхним регистром</p>
+                </div>
+            </div>
+        </div>
+        <p class="error error_password" id="errorPassword">* Пароль должен содержать не менее 8 символов, включая заглавные буквы и цифры.</p>
+        <div class="dropdown" id="dropdown">
+            <div class="dropdown_content">
+                <div class="dropdown_nav">
+                    <div class="top_nav">
+                        <p>Выберите код региона</p>
+                        <figure class="cross" id="cross">
+                            <img src="images/cross.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="bottom_nav">
+                        <input class="search input_style" id="search" placeholder="Search" type="text">
+                    </div>
+                </div>
+                <div class="options" id="options"></div>
+            </div>
+        </div>
+        <figure class="shadow" id="shadow"></figure>
+    </form>
+    <button class="btn_enter" id="enter">Войти</button>
+
+</div>
+
+
+    <script src="js/data.json"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

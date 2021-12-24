@@ -1,0 +1,1717 @@
+data = `[
+{
+"name": "Afghanistan",
+"code": "+93",
+"iso": "AF",
+"flag": "https://www.countryflags.io/AF/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Aland Islands",
+"code": "+358",
+"iso": "AX",
+"flag": "https://www.countryflags.io/AX/flat/24.png",
+"mask": "(___)___-__-__"
+},
+{
+"name": "Albania",
+"code": "+355",
+"iso": "AL",
+"flag": "https://www.countryflags.io/AL/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Algeria",
+"code": "+213",
+"iso": "DZ",
+"flag": "https://www.countryflags.io/DZ/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "American Samoa",
+"code": "+1",
+"iso": "AS",
+"flag": "https://www.countryflags.io/AS/flat/24.png",
+"mask": "(684)___-____"
+},
+{
+"name": "Andorra",
+"code": "+376",
+"iso": "AD",
+"flag": "https://www.countryflags.io/AD/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Angola",
+"code": "+244",
+"iso": "AO",
+"flag": "https://www.countryflags.io/AO/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Anguilla",
+"code": "+1",
+"iso": "AI",
+"flag": "https://www.countryflags.io/AI/flat/24.png",
+"mask": "(224)___-____"
+},
+{
+"name": "Antarctica",
+"code": "+672",
+"iso": "AQ",
+"flag": "https://www.countryflags.io/AQ/flat/24.png",
+"mask": "1__-___"
+},
+{
+"name": "Antigua and Barbuda",
+"code": "+1",
+"iso": "AG",
+"flag": "https://www.countryflags.io/AG/flat/24.png",
+"mask": "(268)___-____"
+},
+{
+"name": "Argentina",
+"code": "+54",
+"iso": "AR",
+"flag": "https://www.countryflags.io/AR/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Armenia",
+"code": "+374",
+"iso": "AM",
+"flag": "https://www.countryflags.io/AM/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Aruba",
+"code": "+297",
+"iso": "AW",
+"flag": "https://www.countryflags.io/AW/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Ascension Island",
+"code": "+247",
+"iso": "AC",
+"flag": "https://www.countryflags.io/SH/flat/24.png",
+"mask": "____"
+},
+{
+"name": "Australia",
+"code": "+61",
+"iso": "AU",
+"flag": "https://www.countryflags.io/AU/flat/24.png",
+"mask": "_-____-____"
+},
+{
+"name": "Austria",
+"code": "+43",
+"iso": "AT",
+"flag": "https://www.countryflags.io/AT/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Azerbaijan",
+"code": "+994",
+"iso": "AZ",
+"flag": "https://www.countryflags.io/AZ/flat/24.png",
+"mask": "__-___-__-__"
+},
+{
+"name": "Bahamas",
+"code": "+1",
+"iso": "BS",
+"flag": "https://www.countryflags.io/BS/flat/24.png",
+"mask": "(242)___-____"
+},
+{
+"name": "Bahrain",
+"code": "+973",
+"iso": "BH",
+"flag": "https://www.countryflags.io/BH/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Bangladesh",
+"code": "+880",
+"iso": "BD",
+"flag": "https://www.countryflags.io/BD/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Barbados",
+"code": "+1",
+"iso": "BB",
+"flag": "https://www.countryflags.io/BB/flat/24.png",
+"mask": "(246)___-____"
+},
+{
+"name": "Belarus",
+"code": "+375",
+"iso": "BY",
+"flag": "https://www.countryflags.io/BY/flat/24.png",
+"mask": "(__)___-__-__"
+},
+{
+"name": "Belgium",
+"code": "+32",
+"iso": "BE",
+"flag": "https://www.countryflags.io/BE/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Belize",
+"code": "+501",
+"iso": "BZ",
+"flag": "https://www.countryflags.io/BZ/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Benin",
+"code": "+229",
+"iso": "BJ",
+"flag": "https://www.countryflags.io/BJ/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Bermuda",
+"code": "+1",
+"iso": "BM",
+"flag": "https://www.countryflags.io/BM/flat/24.png",
+"mask": "(441)___-____"
+},
+{
+"name": "Bhutan",
+"code": "+975",
+"iso": "BT",
+"flag": "https://www.countryflags.io/BT/flat/24.png",
+"mask": "17-___-___"
+},
+{
+"name": "Bolivia",
+"code": "+591",
+"iso": "BO",
+"flag": "https://www.countryflags.io/BO/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Bosnia and Herzegovina",
+"code": "+387",
+"iso": "BA",
+"flag": "https://www.countryflags.io/BA/flat/24.png",
+"mask": "__-____"
+},
+{
+"name": "Botswana",
+"code": "+267",
+"iso": "BW",
+"flag": "https://www.countryflags.io/BW/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Brazil",
+"code": "+55",
+"iso": "BR",
+"flag": "https://www.countryflags.io/BR/flat/24.png",
+"mask": "(__)____-____"
+},
+{
+"name": "British Indian Ocean Territory",
+"code": "+246",
+"iso": "IO",
+"flag": "https://www.countryflags.io/IO/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Brunei Darussalam",
+"code": "+673",
+"iso": "BN",
+"flag": "https://www.countryflags.io/BN/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Bulgaria",
+"code": "+359",
+"iso": "BG",
+"flag": "https://www.countryflags.io/BG/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Burkina Faso",
+"code": "+226",
+"iso": "BF",
+"flag": "https://www.countryflags.io/BF/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Burundi",
+"code": "+257",
+"iso": "BI",
+"flag": "https://www.countryflags.io/BI/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Cambodia",
+"code": "+855",
+"iso": "KH",
+"flag": "https://www.countryflags.io/KH/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Cameroon",
+"code": "+237",
+"iso": "CM",
+"flag": "https://www.countryflags.io/CM/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Canada",
+"code": "+1",
+"iso": "CA",
+"flag": "https://www.countryflags.io/CA/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Cape Verde",
+"code": "+238",
+"iso": "CV",
+"flag": "https://www.countryflags.io/CV/flat/24.png",
+"mask": "(___)__-__"
+},
+{
+"name": "Cayman Islands",
+"code": "+1",
+"iso": "KY",
+"flag": "https://www.countryflags.io/KY/flat/24.png",
+"mask": "(345)___-____"
+},
+{
+"name": "Central African Republic",
+"code": "+236",
+"iso": "CF",
+"flag": "https://www.countryflags.io/CF/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Chad",
+"code": "+235",
+"iso": "TD",
+"flag": "https://www.countryflags.io/TD/flat/24.png",
+"mask": "__-__-__-__"
+},
+{
+"name": "Chile",
+"code": "+56",
+"iso": "CL",
+"flag": "https://www.countryflags.io/CL/flat/24.png",
+"mask": "_-____-____"
+},
+{
+"name": "China",
+"code": "+86",
+"iso": "CN",
+"flag": "https://www.countryflags.io/CN/flat/24.png",
+"mask": "(___)____-___"
+},
+{
+"name": "Christmas Island",
+"code": "+61",
+"iso": "CX",
+"flag": "https://www.countryflags.io/CX/flat/24.png",
+"mask": "_-____-____"
+},
+{
+"name": "Cocos (Keeling) Islands",
+"code": "+61",
+"iso": "CC",
+"flag": "https://www.countryflags.io/CC/flat/24.png",
+"mask": "_-____-____"
+},
+{
+"name": "Colombia",
+"code": "+57",
+"iso": "CO",
+"flag": "https://www.countryflags.io/CO/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Comoros",
+"code": "+269",
+"iso": "KM",
+"flag": "https://www.countryflags.io/KM/flat/24.png",
+"mask": "__-_____"
+},
+{
+"name": "Congo",
+"code": "+242",
+"iso": "CG",
+"flag": "https://www.countryflags.io/CG/flat/24.png",
+"mask": "__-_____"
+},
+{
+"name": "Cook Islands",
+"code": "+682",
+"iso": "CK",
+"flag": "https://www.countryflags.io/CK/flat/24.png",
+"mask": "__-___"
+},
+{
+"name": "Costa Rica",
+"code": "+506",
+"iso": "CR",
+"flag": "https://www.countryflags.io/CR/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Croatia",
+"code": "+385",
+"iso": "HR",
+"flag": "https://www.countryflags.io/HR/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Cuba",
+"code": "+53",
+"iso": "CU",
+"flag": "https://www.countryflags.io/CU/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Cyprus",
+"code": "+357",
+"iso": "CY",
+"flag": "https://www.countryflags.io/CY/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Czech Republic",
+"code": "+420",
+"iso": "CZ",
+"flag": "https://www.countryflags.io/CZ/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Democratic Republic of the Congo",
+"code": "+243",
+"iso": "CD",
+"flag": "https://www.countryflags.io/CD/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Denmark",
+"code": "+45",
+"iso": "DK",
+"flag": "https://www.countryflags.io/DK/flat/24.png",
+"mask": "__-__-__-__"
+},
+{
+"name": "Djibouti",
+"code": "+253",
+"iso": "DJ",
+"flag": "https://www.countryflags.io/DJ/flat/24.png",
+"mask": "__-__-__-__"
+},
+{
+"name": "Dominica",
+"code": "+1",
+"iso": "DM",
+"flag": "https://www.countryflags.io/DM/flat/24.png",
+"mask": "(767)___-____"
+},
+{
+"name": "Dominican Republic",
+"code": "+1",
+"iso": "DO",
+"flag": "https://www.countryflags.io/DO/flat/24.png",
+"mask": "(809)___-____"
+},
+{
+"name": "Ecuador",
+"code": "+593",
+"iso": "EC",
+"flag": "https://www.countryflags.io/EC/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Egypt",
+"code": "+20",
+"iso": "EG",
+"flag": "https://www.countryflags.io/EG/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "El Salvador",
+"code": "+503",
+"iso": "SV",
+"flag": "https://www.countryflags.io/SV/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Equatorial Guinea",
+"code": "+240",
+"iso": "GQ",
+"flag": "https://www.countryflags.io/GQ/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Eritrea",
+"code": "+291",
+"iso": "ER",
+"flag": "https://www.countryflags.io/ER/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Estonia",
+"code": "+372",
+"iso": "EE",
+"flag": "https://www.countryflags.io/EE/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Eswatini",
+"code": "+268",
+"iso": "SZ",
+"flag": "https://www.countryflags.io/SZ/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Ethiopia",
+"code": "+251",
+"iso": "ET",
+"flag": "https://www.countryflags.io/ET/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Falkland Islands (Malvinas)",
+"code": "+500",
+"iso": "FK",
+"flag": "https://www.countryflags.io/FK/flat/24.png",
+"mask": "_____"
+},
+{
+"name": "Faroe Islands",
+"code": "+298",
+"iso": "FO",
+"flag": "https://www.countryflags.io/FO/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Fiji",
+"code": "+679",
+"iso": "FJ",
+"flag": "https://www.countryflags.io/FJ/flat/24.png",
+"mask": "__-_____"
+},
+{
+"name": "Finland",
+"code": "+358",
+"iso": "FI",
+"flag": "https://www.countryflags.io/FI/flat/24.png",
+"mask": "(___)___-__-__"
+},
+{
+"name": "France",
+"code": "+33",
+"iso": "FR",
+"flag": "https://www.countryflags.io/FR/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "French Guiana",
+"code": "+594",
+"iso": "GF",
+"flag": "https://www.countryflags.io/GF/flat/24.png",
+"mask": "_____-____"
+},
+{
+"name": "French Polynesia",
+"code": "+689",
+"iso": "PF",
+"flag": "https://www.countryflags.io/PF/flat/24.png",
+"mask": "__-__-__"
+},
+{
+"name": "Gabon",
+"code": "+241",
+"iso": "GA",
+"flag": "https://www.countryflags.io/GA/flat/24.png",
+"mask": "_-__-__-__"
+},
+{
+"name": "Gambia",
+"code": "+220",
+"iso": "GM",
+"flag": "https://www.countryflags.io/GM/flat/24.png",
+"mask": "(___)__-__"
+},
+{
+"name": "Georgia",
+"code": "+995",
+"iso": "GE",
+"flag": "https://www.countryflags.io/GE/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Germany",
+"code": "+49",
+"iso": "DE",
+"flag": "https://www.countryflags.io/DE/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Ghana",
+"code": "+233",
+"iso": "GH",
+"flag": "https://www.countryflags.io/GH/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Gibraltar",
+"code": "+350",
+"iso": "GI",
+"flag": "https://www.countryflags.io/GI/flat/24.png",
+"mask": "___-_____"
+},
+{
+"name": "Greece",
+"code": "+30",
+"iso": "GR",
+"flag": "https://www.countryflags.io/GR/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Greenland",
+"code": "+299",
+"iso": "GL",
+"flag": "https://www.countryflags.io/GL/flat/24.png",
+"mask": "__-__-__"
+},
+{
+"name": "Grenada",
+"code": "+1",
+"iso": "GD",
+"flag": "https://www.countryflags.io/GD/flat/24.png",
+"mask": "(473)___-____"
+},
+{
+"name": "Guadeloupe",
+"code": "+590",
+"iso": "GP",
+"flag": "https://www.countryflags.io/GP/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Guam",
+"code": "+1",
+"iso": "GU",
+"flag": "https://www.countryflags.io/GU/flat/24.png",
+"mask": "(671)___-____"
+},
+{
+"name": "Guatemala",
+"code": "+502",
+"iso": "GT",
+"flag": "https://www.countryflags.io/GT/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Guernsey",
+"code": "+44",
+"iso": "GG",
+"flag": "https://www.countryflags.io/GG/flat/24.png",
+"mask": "__-____-____"
+},
+{
+"name": "Guinea",
+"code": "+224",
+"iso": "GN",
+"flag": "https://www.countryflags.io/GN/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Guinea-Bissau",
+"code": "+245",
+"iso": "GW",
+"flag": "https://www.countryflags.io/GW/flat/24.png",
+"mask": "_-______"
+},
+{
+"name": "Guyana",
+"code": "+592",
+"iso": "GY",
+"flag": "https://www.countryflags.io/GY/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Haiti",
+"code": "+509",
+"iso": "HT",
+"flag": "https://www.countryflags.io/HT/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Holy See (Vatican City State)",
+"code": "+39",
+"iso": "VA",
+"flag": "https://www.countryflags.io/VA/flat/24.png",
+"mask": "06 698_____"
+},
+{
+"name": "Honduras",
+"code": "+504",
+"iso": "HN",
+"flag": "https://www.countryflags.io/HN/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Hong Kong",
+"code": "+852",
+"iso": "HK",
+"flag": "https://www.countryflags.io/HK/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Hungary",
+"code": "+36",
+"iso": "HU",
+"flag": "https://www.countryflags.io/HU/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Iceland",
+"code": "+354",
+"iso": "IS",
+"flag": "https://www.countryflags.io/IS/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "India",
+"code": "+91",
+"iso": "IN",
+"flag": "https://www.countryflags.io/IN/flat/24.png",
+"mask": "(____)___-___"
+},
+{
+"name": "Indonesia",
+"code": "+62",
+"iso": "ID",
+"flag": "https://www.countryflags.io/ID/flat/24.png",
+"mask": "__-___-__"
+},
+{
+"name": "Iran",
+"code": "+98",
+"iso": "IR",
+"flag": "https://www.countryflags.io/IR/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Iraq",
+"code": "+924",
+"iso": "IQ",
+"flag": "https://www.countryflags.io/IQ/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Ireland",
+"code": "+353",
+"iso": "IE",
+"flag": "https://www.countryflags.io/IE/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Isle of Man",
+"code": "+44",
+"iso": "IM",
+"flag": "https://www.countryflags.io/IM/flat/24.png",
+"mask": "__-____-____"
+},
+{
+"name": "Israel",
+"code": "+972",
+"iso": "IL",
+"flag": "https://www.countryflags.io/IL/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Italy",
+"code": "+39",
+"iso": "IT",
+"flag": "https://www.countryflags.io/IT/flat/24.png",
+"mask": "(___)____-___"
+},
+{
+"name": "Ivory Coast / Cote d'Ivoire",
+"code": "+225",
+"iso": "CI",
+"flag": "https://www.countryflags.io/CI/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Jamaica",
+"code": "+1",
+"iso": "JM",
+"flag": "https://www.countryflags.io/JM/flat/24.png",
+"mask": "(876)___-____"
+},
+{
+"name": "Japan",
+"code": "+81",
+"iso": "JP",
+"flag": "https://www.countryflags.io/JP/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Jersey",
+"code": "+44",
+"iso": "JE",
+"flag": "https://www.countryflags.io/JE/flat/24.png",
+"mask": "__-____-____"
+},
+{
+"name": "Jordan",
+"code": "+962",
+"iso": "JO",
+"flag": "https://www.countryflags.io/JO/flat/24.png",
+"mask": "_-____-____"
+},
+{
+"name": "Kazakhstan",
+"code": "+77",
+"iso": "KZ",
+"flag": "https://www.countryflags.io/KZ/flat/24.png",
+"mask": "(6__)___-__-__"
+},
+{
+"name": "Kenya",
+"code": "+254",
+"iso": "KE",
+"flag": "https://www.countryflags.io/KE/flat/24.png",
+"mask": "___-______"
+},
+{
+"name": "Kiribati",
+"code": "+686",
+"iso": "KI",
+"flag": "https://www.countryflags.io/KI/flat/24.png",
+"mask": "__-___"
+},
+{
+"name": "Korea, Democratic People's Republic of Korea",
+"code": "+850",
+"iso": "KP",
+"flag": "https://www.countryflags.io/KP/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Korea, Republic of South Korea",
+"code": "+82",
+"iso": "KR",
+"flag": "https://www.countryflags.io/KR/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Kosovo",
+"code": "+383",
+"iso": "XK",
+"flag": "https://www.countryflags.io/XK/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Kuwait",
+"code": "+965",
+"iso": "KW",
+"flag": "https://www.countryflags.io/KW/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Kyrgyzstan",
+"code": "+996",
+"iso": "KG",
+"flag": "https://www.countryflags.io/KG/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Laos",
+"code": "+856",
+"iso": "LA",
+"flag": "https://www.countryflags.io/LA/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Latvia",
+"code": "+371",
+"iso": "LV",
+"flag": "https://www.countryflags.io/LV/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Lebanon",
+"code": "+961",
+"iso": "LB",
+"flag": "https://www.countryflags.io/LB/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Lesotho",
+"code": "+266",
+"iso": "LS",
+"flag": "https://www.countryflags.io/LS/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Liberia",
+"code": "+231",
+"iso": "LR",
+"flag": "https://www.countryflags.io/LR/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Libya",
+"code": "+218",
+"iso": "LY",
+"flag": "https://www.countryflags.io/LY/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Liechtenstein",
+"code": "+423",
+"iso": "LI",
+"flag": "https://www.countryflags.io/LI/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Lithuania",
+"code": "+370",
+"iso": "LT",
+"flag": "https://www.countryflags.io/LT/flat/24.png",
+"mask": "(___)__-___"
+},
+{
+"name": "Luxembourg",
+"code": "+352",
+"iso": "LU",
+"flag": "https://www.countryflags.io/LU/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Macau",
+"code": "+853",
+"iso": "MO",
+"flag": "https://www.countryflags.io/MO/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Madagascar",
+"code": "+261",
+"iso": "MG",
+"flag": "https://www.countryflags.io/MG/flat/24.png",
+"mask": "__-__-_____"
+},
+{
+"name": "Malawi",
+"code": "+265",
+"iso": "MW",
+"flag": "https://www.countryflags.io/MW/flat/24.png",
+"mask": "1-___-___"
+},
+{
+"name": "Malaysia",
+"code": "+60",
+"iso": "MY",
+"flag": "https://www.countryflags.io/MY/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Maldives",
+"code": "+960",
+"iso": "MV",
+"flag": "https://www.countryflags.io/MV/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Mali",
+"code": "+223",
+"iso": "ML",
+"flag": "https://www.countryflags.io/ML/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Malta",
+"code": "+356",
+"iso": "MT",
+"flag": "https://www.countryflags.io/MT/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Marshall Islands",
+"code": "+692",
+"iso": "MH",
+"flag": "https://www.countryflags.io/MH/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Martinique",
+"code": "+596",
+"iso": "MQ",
+"flag": "https://www.countryflags.io/MQ/flat/24.png",
+"mask": "(___)__-__-__"
+},
+{
+"name": "Mauritania",
+"code": "+222",
+"iso": "MR",
+"flag": "https://www.countryflags.io/MR/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Mauritius",
+"code": "+230",
+"iso": "MU",
+"flag": "https://www.countryflags.io/MU/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Mayotte",
+"code": "+262",
+"iso": "YT",
+"flag": "https://www.countryflags.io/YT/flat/24.png",
+"mask": "_____-____"
+},
+{
+"name": "Mexico",
+"code": "+52",
+"iso": "MX",
+"flag": "https://www.countryflags.io/MX/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Micronesia, Federated States of Micronesia",
+"code": "+691",
+"iso": "FM",
+"flag": "https://www.countryflags.io/FM/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Moldova",
+"code": "+373",
+"iso": "MD",
+"flag": "https://www.countryflags.io/MD/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Monaco",
+"code": "+377",
+"iso": "MC",
+"flag": "https://www.countryflags.io/MC/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Mongolia",
+"code": "+976",
+"iso": "MN",
+"flag": "https://www.countryflags.io/MN/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Montenegro",
+"code": "+382",
+"iso": "ME",
+"flag": "https://www.countryflags.io/ME/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Montserrat",
+"code": "+1",
+"iso": "MS",
+"flag": "https://www.countryflags.io/MS/flat/24.png",
+"mask": "(624)___-____"
+},
+{
+"name": "Morocco",
+"code": "+212",
+"iso": "MA",
+"flag": "https://www.countryflags.io/MA/flat/24.png",
+"mask": "__-____-___"
+},
+{
+"name": "Mozambique",
+"code": "+258",
+"iso": "MZ",
+"flag": "https://www.countryflags.io/MZ/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Myanmar",
+"code": "+95",
+"iso": "MM",
+"flag": "https://www.countryflags.io/MM/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Namibia",
+"code": "+224",
+"iso": "NA",
+"flag": "https://www.countryflags.io/NA/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Nauru",
+"code": "+674",
+"iso": "NR",
+"flag": "https://www.countryflags.io/NR/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Nepal",
+"code": "+977",
+"iso": "NP",
+"flag": "https://www.countryflags.io/NP/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Netherlands",
+"code": "+31",
+"iso": "NL",
+"flag": "https://www.countryflags.io/NL/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Netherlands Antilles",
+"code": "+599",
+"iso": "AN",
+"flag": "https://www.countryflags.io/AN/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "New Caledonia",
+"code": "+687",
+"iso": "NC",
+"flag": "https://www.countryflags.io/NC/flat/24.png",
+"mask": "__-____"
+},
+{
+"name": "New Zealand",
+"code": "+24",
+"iso": "NZ",
+"flag": "https://www.countryflags.io/NZ/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Nicaragua",
+"code": "+505",
+"iso": "NI",
+"flag": "https://www.countryflags.io/NI/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Niger",
+"code": "+227",
+"iso": "NE",
+"flag": "https://www.countryflags.io/NE/flat/24.png",
+"mask": "__-__-____"
+},
+{
+"name": "Nigeria",
+"code": "+234",
+"iso": "NG",
+"flag": "https://www.countryflags.io/NG/flat/24.png",
+"mask": "__-___-__"
+},
+{
+"name": "Niue",
+"code": "+683",
+"iso": "NU",
+"flag": "https://www.countryflags.io/NU/flat/24.png",
+"mask": "____"
+},
+{
+"name": "Norfolk Island",
+"code": "+672",
+"iso": "NF",
+"flag": "https://www.countryflags.io/NF/flat/24.png",
+"mask": "3__-___"
+},
+{
+"name": "North Macedonia",
+"code": "+389",
+"iso": "MK",
+"flag": "https://www.countryflags.io/MK/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Northern Mariana Islands",
+"code": "+1",
+"iso": "MP",
+"flag": "https://www.countryflags.io/MP/flat/24.png",
+"mask": "(670)___-____"
+},
+{
+"name": "Norway",
+"code": "+47",
+"iso": "NO",
+"flag": "https://www.countryflags.io/NO/flat/24.png",
+"mask": "(___)__-___"
+},
+{
+"name": "Oman",
+"code": "+968",
+"iso": "OM",
+"flag": "https://www.countryflags.io/OM/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Pakistan",
+"code": "+92",
+"iso": "PK",
+"flag": "https://www.countryflags.io/PK/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Palau",
+"code": "+680",
+"iso": "PW",
+"flag": "https://www.countryflags.io/PW/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Palestine",
+"code": "+970",
+"iso": "PS",
+"flag": "https://www.countryflags.io/PS/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Panama",
+"code": "+507",
+"iso": "PA",
+"flag": "https://www.countryflags.io/PA/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Papua New Guinea",
+"code": "+675",
+"iso": "PG",
+"flag": "https://www.countryflags.io/PG/flat/24.png",
+"mask": "(___)__-___"
+},
+{
+"name": "Paraguay",
+"code": "+595",
+"iso": "PY",
+"flag": "https://www.countryflags.io/PY/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Peru",
+"code": "+51",
+"iso": "PE",
+"flag": "https://www.countryflags.io/PE/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Philippines",
+"code": "+63",
+"iso": "PH",
+"flag": "https://www.countryflags.io/PH/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Pitcairn",
+"code": "+870",
+"iso": "PN",
+"flag": "https://www.countryflags.io/PN/flat/24.png",
+"mask": "___-___-___"
+},
+{
+"name": "Poland",
+"code": "+48",
+"iso": "PL",
+"flag": "https://www.countryflags.io/PL/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Portugal",
+"code": "+351",
+"iso": "PT",
+"flag": "https://www.countryflags.io/PT/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Puerto Rico",
+"code": "+1",
+"iso": "PR",
+"flag": "https://www.countryflags.io/PR/flat/24.png",
+"mask": "(787) ___ ____"
+},
+{
+"name": "Qatar",
+"code": "+974",
+"iso": "QA",
+"flag": "https://www.countryflags.io/QA/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Reunion",
+"code": "+262",
+"iso": "RE",
+"flag": "https://www.countryflags.io/RE/flat/24.png",
+"mask": "_____-____"
+},
+{
+"name": "Romania",
+"code": "+40",
+"iso": "RO",
+"flag": "https://www.countryflags.io/RO/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Russia",
+"code": "+7",
+"iso": "RU",
+"flag": "https://www.countryflags.io/RU/flat/24.png",
+"mask": "(___)___-__-__"
+},
+{
+"name": "Rwanda",
+"code": "+250",
+"iso": "RW",
+"flag": "https://www.countryflags.io/RW/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Saint Barthelemy",
+"code": "+590",
+"iso": "BL",
+"flag": "https://www.countryflags.io/BL/flat/24.png",
+"mask": "___-__-__-__"
+},
+{
+"name": "Saint Helena, Ascension and Tristan Da Cunha",
+"code": "+290",
+"iso": "SH",
+"flag": "https://www.countryflags.io/SH/flat/24.png",
+"mask": "____"
+},
+{
+"name": "Saint Kitts and Nevis",
+"code": "+1",
+"iso": "KN",
+"flag": "https://www.countryflags.io/KN/flat/24.png",
+"mask": "(869)___-____"
+},
+{
+"name": "Saint Lucia",
+"code": "+1",
+"iso": "LC",
+"flag": "https://www.countryflags.io/LC/flat/24.png",
+"mask": "(758)___-____"
+},
+{
+"name": "Saint Martin",
+"code": "+590",
+"iso": "MF",
+"flag": "https://www.countryflags.io/MF/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Saint Pierre and Miquelon",
+"code": "+508",
+"iso": "PM",
+"flag": "https://www.countryflags.io/PM/flat/24.png",
+"mask": "__-____"
+},
+{
+"name": "Saint Vincent and the Grenadines",
+"code": "+1",
+"iso": "VC",
+"flag": "https://www.countryflags.io/VC/flat/24.png",
+"mask": "(784)___-____"
+},
+{
+"name": "Samoa",
+"code": "+685",
+"iso": "WS",
+"flag": "https://www.countryflags.io/WS/flat/24.png",
+"mask": "__-____"
+},
+{
+"name": "San Marino",
+"code": "+378",
+"iso": "SM",
+"flag": "https://www.countryflags.io/SM/flat/24.png",
+"mask": "____-______"
+},
+{
+"name": "Sao Tome and Principe",
+"code": "+239",
+"iso": "ST",
+"flag": "https://www.countryflags.io/ST/flat/24.png",
+"mask": "__-_____"
+},
+{
+"name": "Saudi Arabia",
+"code": "+966",
+"iso": "SA",
+"flag": "https://www.countryflags.io/SA/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Senegal",
+"code": "+221",
+"iso": "SN",
+"flag": "https://www.countryflags.io/SN/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Serbia",
+"code": "+381",
+"iso": "RS",
+"flag": "https://www.countryflags.io/RS/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Seychelles",
+"code": "+248",
+"iso": "SC",
+"flag": "https://www.countryflags.io/SC/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Sierra Leone",
+"code": "+232",
+"iso": "SL",
+"flag": "https://www.countryflags.io/SL/flat/24.png",
+"mask": "__-______"
+},
+{
+"name": "Singapore",
+"code": "+65",
+"iso": "SG",
+"flag": "https://www.countryflags.io/SG/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Sint Maarten",
+"code": "+1",
+"iso": "SX",
+"flag": "https://www.countryflags.io/SX/flat/24.png",
+"mask": "(721)___-____"
+},
+{
+"name": "Slovakia",
+"code": "+421",
+"iso": "SK",
+"flag": "https://www.countryflags.io/SK/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Slovenia",
+"code": "+386",
+"iso": "SI",
+"flag": "https://www.countryflags.io/SI/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Solomon Islands",
+"code": "+677",
+"iso": "SB",
+"flag": "https://www.countryflags.io/SB/flat/24.png",
+"mask": "_____"
+},
+{
+"name": "Somalia",
+"code": "+252",
+"iso": "SO",
+"flag": "https://www.countryflags.io/SO/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "South Africa",
+"code": "+27",
+"iso": "ZA",
+"flag": "https://www.countryflags.io/ZA/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "South Georgia and the South Sandwich Islands",
+"code": "+500",
+"iso": "GS",
+"flag": "https://www.countryflags.io/GS/flat/24.png",
+"mask": "_____"
+},
+{
+"name": "South Sudan",
+"code": "+211",
+"iso": "SS",
+"flag": "https://www.countryflags.io/SS/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Spain",
+"code": "+34",
+"iso": "ES",
+"flag": "https://www.countryflags.io/ES/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Sri Lanka",
+"code": "+94",
+"iso": "LK",
+"flag": "https://www.countryflags.io/LK/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Sudan",
+"code": "+249",
+"iso": "SD",
+"flag": "https://www.countryflags.io/SD/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Suriname",
+"code": "+597",
+"iso": "SR",
+"flag": "https://www.countryflags.io/SR/flat/24.png",
+"mask": "___-___"
+},
+{
+"name": "Svalbard and Jan Mayen",
+"code": "+47",
+"iso": "SJ",
+"flag": "https://www.countryflags.io/SJ/flat/24.png",
+"mask": "(___)__-___"
+},
+{
+"name": "Sweden",
+"code": "+46",
+"iso": "SE",
+"flag": "https://www.countryflags.io/SE/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Switzerland",
+"code": "+41",
+"iso": "CH",
+"flag": "https://www.countryflags.io/CH/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Syrian Arab Republic",
+"code": "+963",
+"iso": "SY",
+"flag": "https://www.countryflags.io/SY/flat/24.png",
+"mask": "__-____-___"
+},
+{
+"name": "Taiwan",
+"code": "+886",
+"iso": "TW",
+"flag": "https://www.countryflags.io/TW/flat/24.png",
+"mask": "____-____"
+},
+{
+"name": "Tajikistan",
+"code": "+992",
+"iso": "TJ",
+"flag": "https://www.countryflags.io/TJ/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Tanzania, United Republic of Tanzania",
+"code": "+255",
+"iso": "TZ",
+"flag": "https://www.countryflags.io/TZ/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Thailand",
+"code": "+66",
+"iso": "TH",
+"flag": "https://www.countryflags.io/TH/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Timor-Leste",
+"code": "+670",
+"iso": "TL",
+"flag": "https://www.countryflags.io/TL/flat/24.png",
+"mask": "___-____"
+},
+{
+"name": "Togo",
+"code": "+228",
+"iso": "TG",
+"flag": "https://www.countryflags.io/TG/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Tokelau",
+"code": "+690",
+"iso": "TK",
+"flag": "https://www.countryflags.io/TK/flat/24.png",
+"mask": "____"
+},
+{
+"name": "Tonga",
+"code": "+676",
+"iso": "TO",
+"flag": "https://www.countryflags.io/TO/flat/24.png",
+"mask": "_____"
+},
+{
+"name": "Trinidad and Tobago",
+"code": "+1",
+"iso": "TT",
+"flag": "https://www.countryflags.io/TT/flat/24.png",
+"mask": "(868)___-____"
+},
+{
+"name": "Tunisia",
+"code": "+216",
+"iso": "TN",
+"flag": "https://www.countryflags.io/TN/flat/24.png",
+"mask": "__-___-___"
+},
+{
+"name": "Turkey",
+"code": "+90",
+"iso": "TR",
+"flag": "https://www.countryflags.io/TR/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Turkmenistan",
+"code": "+993",
+"iso": "TM",
+"flag": "https://www.countryflags.io/TM/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "Turks and Caicos Islands",
+"code": "+1",
+"iso": "TC",
+"flag": "https://www.countryflags.io/TC/flat/24.png",
+"mask": "(249)___-___"
+},
+{
+"name": "Tuvalu",
+"code": "+688",
+"iso": "TV",
+"flag": "https://www.countryflags.io/TV/flat/24.png",
+"mask": "2____"
+},
+{
+"name": "Uganda",
+"code": "+256",
+"iso": "UG",
+"flag": "https://www.countryflags.io/UG/flat/24.png",
+"mask": "(___)___-___"
+},
+{
+"name": "Ukraine",
+"code": "+380",
+"iso": "UA",
+"flag": "https://www.countryflags.io/UA/flat/24.png",
+"mask": "(__)___-__-__"
+},
+{
+"name": "United Arab Emirates",
+"code": "+971",
+"iso": "AE",
+"flag": "https://www.countryflags.io/AE/flat/24.png",
+"mask": "_-___-____"
+},
+{
+"name": "United Kingdom",
+"code": "+44",
+"iso": "GB",
+"flag": "https://www.countryflags.io/GB/flat/24.png",
+"mask": "__-____-____"
+},
+{
+"name": "United States",
+"code": "+1",
+"iso": "US",
+"flag": "https://www.countryflags.io/US/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Uruguay",
+"code": "+598",
+"iso": "UY",
+"flag": "https://www.countryflags.io/UY/flat/24.png",
+"mask": "_-___-__-__"
+},
+{
+"name": "Uzbekistan",
+"code": "+998",
+"iso": "UZ",
+"flag": "https://www.countryflags.io/UZ/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Vanuatu",
+"code": "+678",
+"iso": "VU",
+"flag": "https://www.countryflags.io/VU/flat/24.png",
+"mask": "_____"
+},
+{
+"name": "Venezuela, Bolivarian Republic of Venezuela",
+"code": "+58",
+"iso": "VE",
+"flag": "https://www.countryflags.io/VE/flat/24.png",
+"mask": "(___)___-____"
+},
+{
+"name": "Vietnam",
+"code": "+84",
+"iso": "VN",
+"flag": "https://www.countryflags.io/VN/flat/24.png",
+"mask": "__-____-___"
+},
+{
+"name": "Virgin Islands, British",
+"code": "+1",
+"iso": "VG",
+"flag": "https://www.countryflags.io/VG/flat/24.png",
+"mask": "(284)___-____"
+},
+{
+"name": "Virgin Islands, U.S.",
+"code": "+1",
+"iso": "VI",
+"flag": "https://www.countryflags.io/VI/flat/24.png",
+"mask": "(340)___-____"
+},
+{
+"name": "Wallis and Futuna",
+"code": "+681",
+"iso": "WF",
+"flag": "https://www.countryflags.io/WF/flat/24.png",
+"mask": "__-____"
+},
+{
+"name": "Yemen",
+"code": "+967",
+"iso": "YE",
+"flag": "https://www.countryflags.io/YE/flat/24.png",
+"mask": "_-___-___"
+},
+{
+"name": "Zambia",
+"code": "+260",
+"iso": "ZM",
+"flag": "https://www.countryflags.io/ZM/flat/24.png",
+"mask": "__-___-____"
+},
+{
+"name": "Zimbabwe",
+"code": "+263",
+"iso": "ZW",
+"flag": "https://www.countryflags.io/ZW/flat/24.png",
+"mask": "_-______"
+}
+]`
